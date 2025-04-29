@@ -46,7 +46,7 @@ const About: React.FC = () => {
             Our Story
           </h2>
           <p className="text-lg text-neutral-300 leading-relaxed">
-            Founded in 2010, our coffee shop has been serving the community with passion and dedication.
+            Founded in 2010, Almira May's Caffeine Bloom has been serving the community with passion and dedication.
             We believe in creating memorable experiences through exceptional coffee and warm hospitality.
           </p>
         </motion.div>

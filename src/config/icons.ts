@@ -5,7 +5,9 @@ import {
   FaDownload, FaExpand, FaInfoCircle, FaEnvelope, FaPhone, FaMapMarkerAlt,
   FaClock, FaGift, FaStar, FaPercent, FaArrowUp, FaArrowDown, FaBars,
   FaTimesCircle, FaCheckCircle, FaExclamationCircle, FaShoppingCart,
-  FaUser, FaSignInAlt, FaSignOutAlt, FaCog, FaBell, FaQuestionCircle
+  FaUser, FaSignInAlt, FaSignOutAlt, FaCog, FaBell, FaQuestionCircle,
+  FaUtensils, FaImage, FaHome, FaBook, FaCalendar, FaLocationArrow,
+  FaChevronDown, FaChevronUp, FaChevronLeft, FaChevronRight
 } from 'react-icons/fa';
 
 interface IconConfig {
@@ -26,6 +28,11 @@ export const icons: IconConfig = {
   arrowRight: FaArrowRight,
   arrowUp: FaArrowUp,
   arrowDown: FaArrowDown,
+  chevronDown: FaChevronDown,
+  chevronUp: FaChevronUp,
+  chevronLeft: FaChevronLeft,
+  chevronRight: FaChevronRight,
+  home: FaHome,
 
   // Actions
   heart: FaHeart,
@@ -40,6 +47,9 @@ export const icons: IconConfig = {
   settings: FaCog,
   bell: FaBell,
   help: FaQuestionCircle,
+  utensils: FaUtensils,
+  image: FaImage,
+  book: FaBook,
 
   // Authentication
   signIn: FaSignInAlt,
@@ -59,6 +69,8 @@ export const icons: IconConfig = {
   envelope: FaEnvelope,
   phone: FaPhone,
   location: FaMapMarkerAlt,
+  calendar: FaCalendar,
+  locationArrow: FaLocationArrow,
 };
 
 export const getIcon = (name: string): IconType => {

@@ -138,10 +138,10 @@ const Gallery: React.FC = () => {
           className="max-w-4xl mx-auto text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-display font-bold text-neutral-100 mb-6">
-            Our Gallery
+            Coffee Haven Mira
           </h2>
           <p className="text-lg text-neutral-300 leading-relaxed">
-            Take a visual journey through our coffee shop
+            Take a visual journey through Almira May's Caffeine Bloom
           </p>
         </motion.div>
 
